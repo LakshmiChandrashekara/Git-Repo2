@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.maths.multi","c":"MultiplicationTable","l":"MultiplicationTable()","url":"%3Cinit%3E()"}]
