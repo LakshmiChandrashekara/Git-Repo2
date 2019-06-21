@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"my_maven_project","l":"ClassA_test"},{"p":"my_maven_project","l":"StringToCharArray"}]

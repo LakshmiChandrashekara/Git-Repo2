@@ -1,0 +1,22 @@
+-encoding
+'Cp1252'
+-private
+-sourcepath
+'C:/Users/Lakshmi.RC/eclipse-workspace/my_maven_project/src/main/java;C:/Users/Lakshmi.RC/eclipse-workspace/my_maven_project/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2019. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Lakshmi.RC/eclipse-workspace/my_maven_project/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'my_maven_project 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Lakshmi.RC/eclipse-workspace/my_maven_project/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'my_maven_project 0.0.1-SNAPSHOT API'
