@@ -1,33 +1,32 @@
 package com.atmecs.qa.helper;
 
-import java.util.Properties;
-
 import org.openqa.selenium.By;
-
-import com.atmecs.qa.testbase.Base;
 import com.atmecs.qa.utility.Constants;
+import com.atmecs.qa.utility.NavigateTo;
 
 public class GetInsightsProperties {
-	Base base = new Base();
-
-	public By[] getInsights() {
-		By[] by = new By[10];
-		
+	
+	
+	NavigateTo navigate = new NavigateTo();
+	
+	/**
+	 * This method will return the Xpath of the Insights web element
+	 * @param Element
+	 * @return
+	 */
+	public By getInsightsXpath(String Element) {
+		String caseStudiesFilePath = getPropertiesFilePath();
+		By getInsights = By.xpath(navigate.navigateTo(caseStudiesFilePath, Element));
+		return getInsights;
+	}
+	
+	/**
+	 * This method will return the file path of the Insights web element
+	 * @return
+	 */
+	public String getPropertiesFilePath() {
 		String path = Constants.PROJECT_BASE_PATH + "/resources/locators/Insights.properties";
-		Properties prop = base.readProperties(path);
-		By Insightselement = (By.xpath(prop.getProperty("insights")));
-		By CaseStudieselement = (By.xpath(prop.getProperty("caseStudies")));
-		By Blogselement = (By.xpath(prop.getProperty("blogs")));
-		By thisWeekInDigitalElement = (By.xpath(prop.getProperty("thisWeekInDigital")));
-		By webinarsElement = (By.xpath(prop.getProperty("webinars")));
-		
-		by[0] = Insightselement;
-		by[1] = CaseStudieselement;
-		by[2] = Blogselement;
-		by[3] = thisWeekInDigitalElement;
-		by[4] = webinarsElement;
-		
-		return by;
+		return path;
 	}
 	
 	

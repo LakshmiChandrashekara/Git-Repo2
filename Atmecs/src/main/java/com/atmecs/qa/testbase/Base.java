@@ -12,11 +12,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.atmecs.qa.utility.Constants;
-
+/**
+ * This class contains methods to interact with different kinds of web browser
+ * @author Lakshmi.RC
+ *
+ */
 public class Base {
 	
 	public WebDriver driver;
-	
+	/**
+	 * This method will return the object of the specified properties file
+	 * @param path
+	 * @return
+	 */
 	public Properties readProperties(String path) {
 		
 		Properties properties = new Properties();
@@ -33,6 +41,9 @@ public class Base {
 		return properties;
 	}
 
+	/**
+	 * This method will instantiate the object of specified browser
+	 */
 	public void openBrowser() {
 		String path = Constants.PROJECT_BASE_PATH + "/resources/Config.properties";
 		Properties prop = readProperties(path);
@@ -60,6 +71,9 @@ public class Base {
 
 	}
 	
+	/**
+	 * This method will perform the operation of quiting the browser window
+	 */
 	public void quitBrowser() {
 		driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		driver.quit();

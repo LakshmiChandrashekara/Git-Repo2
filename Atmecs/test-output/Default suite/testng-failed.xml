@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.qa.testscripts.CaseStudiesTest">
+      <class name="com.atmecs.qa.testscripts.InsightsTest">
         <methods>
+          <include name="testInsights"/>
           <include name="getBrowser"/>
-          <include name="testCaseStudies"/>
         </methods>
-      </class> <!-- com.atmecs.qa.testscripts.CaseStudiesTest -->
+      </class> <!-- com.atmecs.qa.testscripts.InsightsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
