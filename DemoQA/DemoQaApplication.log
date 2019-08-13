@@ -1,0 +1,4 @@
+2019-08-13 19:50:37,856  INFO [main] GenerateLoggerReport:21 - PASSED: ClickOnProduct EXPECTED: black lux graphic t-shirt – ToolsQA Demo Site ACTUAL: black lux graphic t-shirt – ToolsQA Demo Site
+2019-08-13 19:50:41,059  INFO [main] GenerateLoggerReport:21 - PASSED: SelectProduct EXPECTED: black lux graphic t-shirt – ToolsQA Demo Site ACTUAL: black lux graphic t-shirt – ToolsQA Demo Site
+2019-08-13 19:51:06,134  INFO [main] GenerateLoggerReport:21 - PASSED: ClickOnProduct EXPECTED: pink drop shoulder oversized t shirt – ToolsQA Demo Site ACTUAL: pink drop shoulder oversized t shirt – ToolsQA Demo Site
+2019-08-13 19:51:08,419  INFO [main] GenerateLoggerReport:21 - PASSED: SelectProduct EXPECTED: pink drop shoulder oversized t shirt – ToolsQA Demo Site ACTUAL: pink drop shoulder oversized t shirt – ToolsQA Demo Site
