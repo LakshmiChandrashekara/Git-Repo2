@@ -1,0 +1,2 @@
+2019-08-30 12:56:53,173  INFO [main] GenerateLoggerReport:22 - PASSED: Not an specified page!!!! EXPECTED: Products – ToolsQA Demo Site ACTUAL: Products – ToolsQA Demo Site
+2019-08-30 12:56:54,483  INFO [main] GenerateLoggerReport:22 - PASSED: invalid page!!!! EXPECTED: Products – Page 3 – ToolsQA Demo Site ACTUAL: Products – Page 3 – ToolsQA Demo Site

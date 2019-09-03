@@ -1,0 +1,15 @@
+
+public static void getTheTotal() {
+String sampleString = driver.findElement(By.xpath(grandTotalFromCart)).getText();
+System.out.println(sampleString);
+String priceTag = sampleString.substring(1,5);
+System.out.println(priceTag);
+}
+@Test(priority=4)
+public void gettheQuantity() {
+String sampleString= driver.findElement(By.xpath("//span[@class='cart-name-and-total']")).getText();
+System.out.println(sampleString);
+String b = sampleString.substring(sampleString.indexOf("(")+1,sampleString.indexOf(")"));
+int quantityPurchased = Integer.parseUnsignedInt(b);
+System.out.println(quantityPurchased);	
+}
